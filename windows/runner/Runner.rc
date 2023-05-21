@@ -89,11 +89,11 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.example" "\0"
+            VALUE "CompanyName", "com.dawidszosziaszwili" "\0"
             VALUE "FileDescription", "get_to_know_me" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "get_to_know_me" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2023 com.example. All rights reserved." "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2023 com.dawidszosziaszwili. All rights reserved." "\0"
             VALUE "OriginalFilename", "get_to_know_me.exe" "\0"
             VALUE "ProductName", "get_to_know_me" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
