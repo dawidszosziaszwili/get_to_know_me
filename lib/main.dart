@@ -16,8 +16,12 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: const Scaffold(
-        body: Center(
-          child: Text('GetToKnowMe'),
+        body: Column(
+          children: [
+            Text(
+              'GetToKnowMe',
+            ),
+          ],
         ),
       ),
     );
