@@ -26,8 +26,15 @@ class MyApp extends StatelessWidget {
                 radius: 155,
               ),
               Text(
-                'GetToKnowMe',
-                style: GoogleFonts.poppins(
+                'Dawid Szosziaszwili',
+                style: GoogleFonts.lobster(
+                  fontSize: 45,
+                  color: Colors.red,
+                ),
+              ),
+              Text(
+                'Flutter Developer',
+                style: GoogleFonts.dancingScript(
                   fontSize: 40,
                   color: Colors.red,
                 ),
