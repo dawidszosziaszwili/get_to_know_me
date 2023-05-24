@@ -50,6 +50,10 @@ class MyApp extends StatelessWidget {
                   color: const Color.fromARGB(255, 64, 64, 69),
                 ),
               ),
+              ElevatedButton(
+                child: const Text('Next->'),
+                onPressed: () {},
+              )
             ],
           ),
         ),
