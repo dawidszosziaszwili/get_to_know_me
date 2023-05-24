@@ -17,30 +17,37 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: Scaffold(
+        appBar: AppBar(
+          title: Text('GetToKnowMe'),
+          backgroundColor: Color.fromARGB(255, 119, 179, 141),
+        ),
         backgroundColor: Color.fromARGB(255, 182, 238, 203),
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              CircleAvatar(
+              const CircleAvatar(
                 backgroundImage: AssetImage('images/image.png'),
                 radius: 155,
               ),
-              SizedBox(
+              const SizedBox(
                 height: 50,
               ),
               Text(
                 'Dawid Szosziaszwili',
                 style: GoogleFonts.lobster(
                   fontSize: 45,
-                  color: Color.fromARGB(255, 64, 64, 69),
+                  color: const Color.fromARGB(255, 64, 64, 69),
                 ),
+              ),
+              const SizedBox(
+                height: 30,
               ),
               Text(
                 'Flutter Developer',
                 style: GoogleFonts.dancingScript(
                   fontSize: 40,
-                  color: Color.fromARGB(255, 64, 64, 69),
+                  color: const Color.fromARGB(255, 64, 64, 69),
                 ),
               ),
             ],
