@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       home: Scaffold(
+        backgroundColor: Color.fromARGB(255, 182, 238, 203),
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -25,18 +26,21 @@ class MyApp extends StatelessWidget {
                 backgroundImage: AssetImage('images/image.png'),
                 radius: 155,
               ),
+              SizedBox(
+                height: 50,
+              ),
               Text(
                 'Dawid Szosziaszwili',
                 style: GoogleFonts.lobster(
                   fontSize: 45,
-                  color: Colors.red,
+                  color: Color.fromARGB(255, 64, 64, 69),
                 ),
               ),
               Text(
                 'Flutter Developer',
                 style: GoogleFonts.dancingScript(
                   fontSize: 40,
-                  color: Colors.red,
+                  color: Color.fromARGB(255, 64, 64, 69),
                 ),
               ),
             ],
