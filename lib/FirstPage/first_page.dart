@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:get_to_know_me/SecondPage/second_page.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-
 class FirstPage extends StatelessWidget {
   const FirstPage({
     super.key,
@@ -43,6 +42,9 @@ class FirstPage extends StatelessWidget {
                 fontSize: 40,
                 color: const Color.fromARGB(255, 64, 64, 69),
               ),
+            ),
+            SizedBox(
+              height: 140,
             ),
             ElevatedButton(
               child: const Text('Next->'),
