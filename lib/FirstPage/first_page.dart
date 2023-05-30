@@ -12,15 +12,15 @@ class FirstPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('GetToKnowMe'),
-        backgroundColor: Color.fromARGB(255, 119, 179, 141),
+        backgroundColor: const Color.fromARGB(255, 119, 179, 141),
       ),
-      backgroundColor: Color.fromARGB(255, 182, 238, 203),
+      backgroundColor: const Color.fromARGB(255, 182, 238, 203),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             const CircleAvatar(
-              backgroundImage: AssetImage('images/image.png'),
+              backgroundImage: AssetImage('images/image4.png'),
               radius: 155,
             ),
             const SizedBox(
@@ -43,7 +43,7 @@ class FirstPage extends StatelessWidget {
                 color: const Color.fromARGB(255, 64, 64, 69),
               ),
             ),
-            SizedBox(
+            const SizedBox(
               height: 140,
             ),
             ElevatedButton(
@@ -51,7 +51,7 @@ class FirstPage extends StatelessWidget {
               onPressed: () {
                 Navigator.of(context).push(
                   MaterialPageRoute(
-                    builder: (_) => SecondPage(),
+                    builder: (_) => const SecondPage(),
                   ),
                 );
               },
