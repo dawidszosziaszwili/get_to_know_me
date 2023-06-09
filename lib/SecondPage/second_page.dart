@@ -34,6 +34,30 @@ class SecondPage extends StatelessWidget {
             'Posiadam praktyczną wiedzę dotyczącą zarządzania sprzedazą popartą praktyką zawodową w róznych branzach, a takze wiedzą teoretyczną zdobytą na studiach magisterskich na kierunku Negocjacje i Sprzedaz.',
             style: GoogleFonts.poppins(fontSize: 20),
           ),
+          Container(
+            color: const Color.fromARGB(238, 99, 193, 193),
+            padding: const EdgeInsets.all(20),
+            margin: const EdgeInsets.all(10),
+            child: const Text('Doświadczenie'),
+          ),
+          Container(
+            color: const Color.fromARGB(238, 99, 193, 193),
+            padding: const EdgeInsets.all(20),
+            margin: const EdgeInsets.all(10),
+            child: const Text('Certyfikaty'),
+          ),
+          Container(
+            color: const Color.fromARGB(238, 99, 193, 193),
+            padding: const EdgeInsets.all(20),
+            margin: const EdgeInsets.all(10),
+            child: const Text('Wykształcenie'),
+          ),
+          Container(
+            color: const Color.fromARGB(238, 99, 193, 193),
+            padding: const EdgeInsets.all(20),
+            margin: const EdgeInsets.all(10),
+            child: const Text('Zainteresowania'),
+          ),
           const SizedBox(
             height: 35,
           ),
