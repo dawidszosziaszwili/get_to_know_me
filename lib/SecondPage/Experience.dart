@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:get_to_know_me/FirstPage/first_page.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-
 class Experience extends StatelessWidget {
   const Experience({
     super.key,
