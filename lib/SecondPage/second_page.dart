@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get_to_know_me/FirstPage/first_page.dart';
+import 'package:get_to_know_me/SecondPage/Certificates.dart';
+import 'package:get_to_know_me/SecondPage/Education.dart';
+import 'package:get_to_know_me/SecondPage/Experience.dart';
+import 'package:get_to_know_me/SecondPage/Hobbies.dart';
 import 'package:get_to_know_me/ThirdPage/third_page.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -34,29 +38,53 @@ class SecondPage extends StatelessWidget {
             'Posiadam praktyczną wiedzę dotyczącą zarządzania sprzedazą popartą praktyką zawodową w róznych branzach, a takze wiedzą teoretyczną zdobytą na studiach magisterskich na kierunku Negocjacje i Sprzedaz.',
             style: GoogleFonts.poppins(fontSize: 20),
           ),
-          Container(
-            color: const Color.fromARGB(238, 99, 193, 193),
-            padding: const EdgeInsets.all(20),
-            margin: const EdgeInsets.all(10),
-            child: const Text('Doświadczenie'),
+          InkWell(
+            onTap: () {
+              Navigator.of(context).push(
+                  MaterialPageRoute(builder: (context) => const Experience()));
+            },
+            child: Container(
+              color: const Color.fromARGB(238, 99, 193, 193),
+              padding: const EdgeInsets.all(20),
+              margin: const EdgeInsets.all(10),
+              child: const Text('Experience'),
+            ),
           ),
-          Container(
-            color: const Color.fromARGB(238, 99, 193, 193),
-            padding: const EdgeInsets.all(20),
-            margin: const EdgeInsets.all(10),
-            child: const Text('Certyfikaty'),
+          InkWell(
+            onTap: () {
+              Navigator.of(context).push(MaterialPageRoute(
+                  builder: (context) => const Certificates()));
+            },
+            child: Container(
+              color: const Color.fromARGB(238, 99, 193, 193),
+              padding: const EdgeInsets.all(20),
+              margin: const EdgeInsets.all(10),
+              child: const Text('Certificates'),
+            ),
           ),
-          Container(
-            color: const Color.fromARGB(238, 99, 193, 193),
-            padding: const EdgeInsets.all(20),
-            margin: const EdgeInsets.all(10),
-            child: const Text('Wykształcenie'),
+          InkWell(
+            onTap: () {
+              Navigator.of(context).push(
+                  MaterialPageRoute(builder: (context) => const Education()));
+            },
+            child: Container(
+              color: const Color.fromARGB(238, 99, 193, 193),
+              padding: const EdgeInsets.all(20),
+              margin: const EdgeInsets.all(10),
+              child: const Text('Education'),
+            ),
           ),
-          Container(
-            color: const Color.fromARGB(238, 99, 193, 193),
-            padding: const EdgeInsets.all(20),
-            margin: const EdgeInsets.all(10),
-            child: const Text('Zainteresowania'),
+          InkWell(
+            onTap: () {
+              Navigator.of(context).push(
+                  MaterialPageRoute(builder: (context) => const Hobbies()));
+            },
+            child: Container(
+              color: const Color.fromARGB(238, 99, 193, 193),
+              padding: const EdgeInsets.all(20),
+              margin: const EdgeInsets.all(10),
+              child: const Text('Hobbies'),
+            ),
           ),
           const SizedBox(
             height: 35,
@@ -83,7 +111,7 @@ class SecondPage extends StatelessWidget {
                     ),
                   );
                 },
-              ),
+              )
             ],
           ),
         ],
