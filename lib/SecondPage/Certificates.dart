@@ -1,9 +1,5 @@
+// ignore: file_names
 import 'package:flutter/material.dart';
-import 'package:get_to_know_me/FirstPage/first_page.dart';
-import 'package:get_to_know_me/SecondPage/second_page.dart';
-import 'package:google_fonts/google_fonts.dart';
-import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
 class Certificates extends StatelessWidget {
   const Certificates({
