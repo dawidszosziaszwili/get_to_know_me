@@ -11,23 +11,47 @@ class Experience extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('GetToKnowMe'),
+        title: const Text('Experience'),
         backgroundColor: const Color.fromARGB(255, 119, 179, 141),
       ),
       backgroundColor: const Color.fromARGB(255, 182, 238, 203),
       body: ListView(
         children: [
-          const CircleAvatar(
-            backgroundImage: AssetImage('images/image5.png'),
-            radius: 215,
+          Text(
+            '-TWORZENIE,, , ',
+            style: GoogleFonts.poppins(fontSize: 20),
+          ),
+          Text(
+            '- SPOTKANIA',
+            style: GoogleFonts.poppins(fontSize: 20),
+          ),
+          Text(
+            '- WSPÓŁPRACA',
+            style: GoogleFonts.poppins(fontSize: 20),
+          ),
+          Text(
+            '- REALIZACJA',
+            style: GoogleFonts.poppins(fontSize: 20),
           ),
           Text(
             'EXPERIENCE',
             style: GoogleFonts.poppins(fontSize: 20),
           ),
-          const CircleAvatar(
-            backgroundImage: AssetImage('images/image2.png'),
-            radius: 215,
+          Text(
+            'EXPERIENCE',
+            style: GoogleFonts.poppins(fontSize: 20),
+          ),
+          Text(
+            'EXPERIENCE',
+            style: GoogleFonts.poppins(fontSize: 20),
+          ),
+          Text(
+            'EXPERIENCE',
+            style: GoogleFonts.poppins(fontSize: 20),
+          ),
+          Text(
+            'EXPERIENCE',
+            style: GoogleFonts.poppins(fontSize: 20),
           ),
           Text(
             'XXXXXXXXXXXX',
