@@ -26,18 +26,6 @@ class SecondPage extends StatelessWidget {
             backgroundImage: AssetImage('images/image5.png'),
             radius: 215,
           ),
-          Text(
-            'Partner w biznesie z ponad 5-letnim doświadczeniem zawodowym w obszarze sprzedazy bezpośredniej w B2B. Otwartość na potrzeby klienta, dyscyplina, wysoko rozwinięte umiejętności organizacyjne oraz interpersonalne, to cechy, które charakteryzują mnie jako skutecznego handlowca.',
-            style: GoogleFonts.poppins(fontSize: 20),
-          ),
-          const CircleAvatar(
-            backgroundImage: AssetImage('images/image2.png'),
-            radius: 215,
-          ),
-          Text(
-            'Posiadam praktyczną wiedzę dotyczącą zarządzania sprzedazą popartą praktyką zawodową w róznych branzach, a takze wiedzą teoretyczną zdobytą na studiach magisterskich na kierunku Negocjacje i Sprzedaz.',
-            style: GoogleFonts.poppins(fontSize: 20),
-          ),
           InkWell(
             onTap: () {
               Navigator.of(context).push(
