@@ -22,15 +22,15 @@ class Experience extends StatelessWidget {
             style: GoogleFonts.poppins(fontSize: 20),
           ),
           const CircleAvatar(
-            backgroundImage: AssetImage('images/image.png'),
-            radius: 215,
+            backgroundImage: AssetImage('images/image6.png'),
+            radius: 310,
           ),
           Text(
             'Posiadam praktyczną wiedzę dotyczącą zarządzania sprzedazą popartą praktyką zawodową w róznych branzach, a takze wiedzą teoretyczną zdobytą na studiach magisterskich na kierunku Negocjacje i Sprzedaz.',
             style: GoogleFonts.poppins(fontSize: 20),
           ),
           const SizedBox(
-            height: 35,
+            height: 45,
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.center,

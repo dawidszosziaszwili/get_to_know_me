@@ -27,6 +27,13 @@ class Certificates extends StatelessWidget {
             style: TextStyle(fontWeight: FontWeight.bold),
           ),
           const SizedBox(height: 8),
+          Image.asset('images/machinab2b.png'),
+          const SizedBox(height: 8),
+          const Text(
+            '"Machina B2B"',
+            style: TextStyle(fontWeight: FontWeight.bold),
+          ),
+          const SizedBox(height: 8),
         ],
       ),
     );
