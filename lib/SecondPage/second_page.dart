@@ -5,7 +5,6 @@ import 'package:get_to_know_me/SecondPage/Education.dart';
 import 'package:get_to_know_me/SecondPage/Experience.dart';
 import 'package:get_to_know_me/SecondPage/Hobbies.dart';
 import 'package:get_to_know_me/ThirdPage/third_page.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 class SecondPage extends StatelessWidget {
   const SecondPage({

@@ -23,14 +23,7 @@ class Certificates extends StatelessWidget {
           Image.asset('images/certificat_AI.png'),
           const SizedBox(height: 8),
           const Text(
-            'Jak wykorzystac moc CHAT GPT oraz AI ], aby zostac programista',
-            style: TextStyle(fontWeight: FontWeight.bold),
-          ),
-          const SizedBox(height: 8),
-          Image.asset('images/certificat_AI.png'),
-          const SizedBox(height: 8),
-          const Text(
-            'Jak wykorzystac moc CHAT GPT oraz AI ], aby zostac programista',
+            '"Jak wykorzystac moc CHAT GPT oraz AI, aby zostac programistą"',
             style: TextStyle(fontWeight: FontWeight.bold),
           ),
           const SizedBox(height: 8),
