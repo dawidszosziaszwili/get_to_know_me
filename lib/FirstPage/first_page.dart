@@ -21,7 +21,7 @@ class FirstPage extends StatelessWidget {
           children: [
             const CircleAvatar(
               backgroundImage: AssetImage('images/image4.png'),
-              radius: 155,
+              radius: 205,
             ),
             const SizedBox(
               height: 50,

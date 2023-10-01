@@ -18,16 +18,27 @@ class Experience extends StatelessWidget {
       body: ListView(
         children: [
           Text(
-            'Partner w biznesie z ponad 5-letnim doświadczeniem zawodowym w obszarze sprzedazy bezpośredniej w B2B. Otwartość na potrzeby klienta, dyscyplina, wysoko rozwinięte umiejętności organizacyjne oraz interpersonalne, to cechy, które charakteryzują mnie jako skutecznego handlowca.',
-            style: GoogleFonts.poppins(fontSize: 20),
+            '12/2022 - present - Account Manager in SquareOne Poland',
+            style: GoogleFonts.lato(fontSize: 25),
+          ),
+          const SizedBox(
+            height: 25,
+          ),
+          Text(
+            '02/2022-12/2022 - IT Sales Specialist in Crestt Sp. z o.o.',
+            style: GoogleFonts.lato(fontSize: 25),
+          ),
+          Text(
+            '10/2021-02/2022 - Business Development Manager in Dasoft Sp. z o.o.',
+            style: GoogleFonts.lato(fontSize: 25),
+          ),
+          Text(
+            '10/2022-02/2022 - Business Development Representative in Verizon Connect Sp. z o.o.',
+            style: GoogleFonts.lato(fontSize: 25),
           ),
           const CircleAvatar(
             backgroundImage: AssetImage('images/image6.png'),
             radius: 310,
-          ),
-          Text(
-            'Posiadam praktyczną wiedzę dotyczącą zarządzania sprzedazą popartą praktyką zawodową w róznych branzach, a takze wiedzą teoretyczną zdobytą na studiach magisterskich na kierunku Negocjacje i Sprzedaz.',
-            style: GoogleFonts.poppins(fontSize: 20),
           ),
           const SizedBox(
             height: 45,
